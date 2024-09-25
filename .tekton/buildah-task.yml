@@ -3,6 +3,9 @@ kind: Task
 metadata:
   name: buildah
 spec:
+  params:
+    - name: build-image
+      type: string
   workspaces:
     - name: output
   steps:
