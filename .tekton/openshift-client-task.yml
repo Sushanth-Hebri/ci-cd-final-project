@@ -3,6 +3,11 @@ kind: Task
 metadata:
   name: openshift-client
 spec:
+  params:
+    - name: app-name
+      type: string
+    - name: build-image
+      type: string
   workspaces:
     - name: output
   steps:
