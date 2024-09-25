@@ -4,7 +4,7 @@ metadata:
   name: buildah
 spec:
   params:
-    - name: build-image
+    - name: build-image  # Removed the extra space
       type: string
   workspaces:
     - name: output
